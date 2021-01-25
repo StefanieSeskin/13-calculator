@@ -1,0 +1,43 @@
+
+
+.calculator {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+#firstnumber {
+  height: 40px;
+  width: 205px;
+}
+
+#secondnumber {
+  height: 40px;
+  width: 205px;
+}
+
+.divide {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+.multiply {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+.subtract {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+.add {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+}
+#result {
+  height: 40px;
+  width: 205px;
+}
