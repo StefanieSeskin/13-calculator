@@ -8,15 +8,27 @@
 <button class="subtract">-</button>
 <button class="add">+</button> */
 
-let num1 = document.getElementById("firstnumber").value;
-let num2 = document.getElementById("secondnumber").value;
+document.querySelector("#calculator").addEventListener("submit", function (e) {
+  e.preventDefault();
 
-function divideInputs() {
-  num1 = document.getElementById("firstnumber").value;
-  num2 = document.getElementById("secondnumber").value;
-  document.getElementById("result").innerHTML = num1 / num2;
-}
-console.log;
+  const input = document.querySelector(firstnumber);
+  const firstnumber = Number(input.value);
+  console.log;
+}); 
+
+// let num1 = document.getElementById("firstnumber").value;
+// let num2 = document.getElementById("secondnumber").value;
+
+// const firstnumber = Number(input.value)
+
+// num1 = Number(firstnumber);
+// num2 = Number(secondnumber);
+
+//   document.getElementById("result").innerHTML = num1 / num2;
+// }
+
+//if statements
+
 // function multiplyInputs (){
 //         num1 = document.getElementById('firstnumber').value;
 //         num2 = document.getElementById('secondnumber').value;
@@ -29,7 +41,6 @@ console.log;
 //         document.getElementById('result').innerHTML = num1 - num2;
 // }
 
-// function addInputs (){
 //         num1 = document.getElementById("firstNumber").value;
 //         num2 = document.getElementById('secondnumber').value;
 //         document.getElementById('result').innerHTML = num1 + num2;
